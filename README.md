@@ -12,10 +12,11 @@
      app.listen(3000);
 
 ## Features
-  * Creates default routes for /<prefix>/<controller>/<action>/<params>
+  * Creates default routes for /`prefix`/`controller`/`action`/`params`
   * Looks up the controller/action in the directory passed by param 
   * Controllers are loaded on demand and only once.
-  * In the handler:  
+  * In the handler: 
+  
 	req.param = {
 		prefix: ...,       //optional
 		controller: ...,
