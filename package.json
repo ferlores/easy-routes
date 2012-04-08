@@ -6,17 +6,6 @@
     "name": "Fernando Lores",
     "email": "ferlores@gmail.com"
   },
-  "contributors": [
-    {
-      "name": "Fernando Lores",
-      "email": "ferlores@gmail.com"
-    }
-  ],
-  "dependencies": {
-    "express": ">= 2.x",
-  },
-  "devDependencies": {
-  },
   "keywords": [
     "framework",
     "sinatra",
@@ -26,28 +15,5 @@
     "cakephp",
     "route"
   ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "main": "index",
-  "bin": {
-  },
-  "scripts": {
-    "test": "make test",
-    "prepublish": "npm prune"
-  },
-  "engines": {
-    "node": ">= 0.4.1 < 0.7.0"
-  },
-  "_id": "easy-routes@0.0.1",
-  "optionalDependencies": {},
-  "_engineSupported": true,
-  "_npmVersion": "1.1.4",
-  "_nodeVersion": "v0.6.14",
-  "_defaultsLoaded": true,
-  "dist": {
-    "shasum": ""
-  },
-  "_from": "easy-routes@0.0.1"
+  "main": "./lib/index"
 }
