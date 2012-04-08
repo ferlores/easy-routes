@@ -6,7 +6,7 @@
        , prefixes = ['admin'];
 	     
      app.configure(function(){
-	  app.use(require('../')(__dirname + '/controllers', prefixes));  
+	  app.use(require('easy-routes')(__dirname + '/controllers', prefixes));  
 	 });
      
      app.listen(3000);
