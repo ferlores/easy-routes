@@ -1,6 +1,6 @@
 {
   "name": "easy-routes",
-  "description": "cakePHP inspired router for express",
+  "description": "cakePHP inspired router for connect/express",
   "version": "0.0.1",
   "author": {
     "name": "Fernando Lores",
@@ -13,7 +13,10 @@
     "rest",
     "restful",
     "cakephp",
-    "route"
+    "route",
+    "middleware",
+    "connect",
+    "express"
   ],
   "main": "./lib/index"
 }
