@@ -18,5 +18,6 @@
     "connect",
     "express"
   ],
+  "repository": "git://github.com/ferlores/easy-routes",
   "main": "./lib/index"
 }

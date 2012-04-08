@@ -12,16 +12,16 @@
      app.listen(3000);
 
 ## Features
-	* Creates default routes for /<prefix>/<controller>/<action>/<params>
-	* Looks up the controller/action in the directory passed by param 
-	* Controllers are loaded on demand and only once.
-	* In the handler:  
-		req.param = {
-			prefix: ...,       //optional
-			controller: ...,
-			action: ...,
-			params: [...]      //optional
-		}
+  * Creates default routes for /<prefix>/<controller>/<action>/<params>
+  * Looks up the controller/action in the directory passed by param 
+  * Controllers are loaded on demand and only once.
+  * In the handler:  
+	req.param = {
+		prefix: ...,       //optional
+		controller: ...,
+		action: ...,
+		params: [...]      //optional
+	}
 	
 ## Installation
 
@@ -45,11 +45,11 @@
 	}
 	
 ## Quick start
-	* Install easy-routes (npm install easy-routes)
-	* Creates a controllers folder
-	* Add the easy-routes middleware
-	* Creates a controller inside the folder (see controlles example)
-	* Visit http://localhost:3000/controller/action
+  * Install easy-routes (npm install easy-routes)
+  * Creates a controllers folder
+  * Add the easy-routes middleware
+  * Creates a controller inside the folder (see controlles example)
+  * Visit http://localhost:3000/controller/action
 	
 ## Running Tests
 
@@ -63,7 +63,7 @@ Test suites are in ./testing/tests.js
 
 (The MIT License)
 
-Copyright (c) 2012 Fenandolores &lt;ferlores@gmail.com&gt;
+Copyright (c) 2012 Fenando Lores &lt;ferlores@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
