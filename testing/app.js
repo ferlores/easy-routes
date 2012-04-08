@@ -15,9 +15,8 @@ app.configure(function(){
   app.use(express.bodyParser());
   app.use(express.methodOverride());
   app.use(app.router);
-  app.use(require('../')(__dirname + '/controllers', ['admin']));
   app.use(express.static(__dirname + '/public'));
-  
+  app.use(require('../')(__dirname + '/controllers', ['admin']));  
 });
 
 app.configure('development', function(){

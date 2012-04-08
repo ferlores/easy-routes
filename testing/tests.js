@@ -43,7 +43,7 @@ module.exports = function(express){
 			output: function(chunk, res){
 				return (res.statusCode == 200 && chunk=='admin/controller1/index/');
 			}			
-		},
+		},/*
 		{ //TEST 4
 			name: '4- Special routes',
 			input: {
@@ -55,7 +55,7 @@ module.exports = function(express){
 			output: function(chunk, res){
 				return (res.statusCode == 200 && chunk=='/controller1/index/');
 			}			
-		},	
+		},	*/
 		{ //TEST 5
 			name: '5- Controller doesnt exist',
 			input: {
