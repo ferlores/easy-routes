@@ -8,6 +8,17 @@ var util = require('util');
 					params: [...]      //optional
 				}
 */
+
+//Private 
+var prop1 = 0;
+
+function printRoute (req, res){
+	var p = (req.params.params) ? req.params.params.join('/') : '';
+	res.end([req.params.prefix, req.params.controller, req.params.action, p].join('/'));
+	console.log(++prop1);
+}
+
+//Public
 module.exports = {
 	index_GET: function(req, res) {
 		printRoute(req, res);
@@ -25,10 +36,6 @@ module.exports = {
 	admin_index_PUT: function(req,res){
 		res.write(req.body.username);
 		printRoute(req, res);	
-	},	
+	}	
 }
 
-function printRoute(req, res){
-	var p = (req.params.params) ? req.params.params.join('/') : '';
-	res.end([req.params.prefix, req.params.controller, req.params.action, p].join('/'));
-}
